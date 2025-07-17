@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "NSCC Quiz",
-  description: "Quix for NSCC Expo",
+  description: "Quiz for NSCC Expo",
+  icons: {
+    icon: "favicon.ico",
+  },
 };
 
 export default function RootLayout({
