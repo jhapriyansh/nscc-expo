@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { RotateCcw, Trophy } from "lucide-react";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 interface QuizResult {
   name: string;
@@ -28,7 +29,10 @@ export default function ResultsPage() {
     "bg-gradient-to-r from-[#43DCBD] to-[#5C96DA] bg-clip-text text-transparent";
 
   return (
-    <div className={`min-h-screen ${gradientBg} p-4`}>
+    <div className={`min-h-screen bg-transparent p-4`}>
+        <div className="-z-1">
+                  <ParticlesBackground />
+                </div>
       <div className="max-w-3xl mx-auto">
         <Card className="shadow-2xl border-0 bg-white/90 backdrop-blur-sm">
           <CardHeader className="text-center space-y-3">
