@@ -639,7 +639,7 @@ export default function QuizApp() {
 
                 <div className="space-y-3">
                   <label className="block text-sm font-medium text-gray-700">
-                    Enter your name to save results:
+                    Give yourself a nickname:
                   </label>
                   <Input
                     type="text"
